@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Square Offices | Maintenance</title>
+    <link rel="icon" type="image/png" href="logo/thesquarelogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <div class="carousel" aria-hidden="true">
+            <div class="carousel__slides" data-slides></div>
+            <div class="carousel__veil"></div>
+            <div class="carousel__mesh"></div>
+        </div>
+
+        <main class="content">
+            <header class="brand-bar">
+                <div class="brand-lockup">
+                    <img class="brand-bar__logo" src="logo/thesquarelogo.png" alt="The Square Offices logo">
+                    <p class="brand-lockup__name">The Square Offices</p>
+                </div>
+            </header>
+
+            <section class="notice-card" aria-labelledby="maintenance-title">
+                <p class="notice-card__eyebrow">Please bear with us</p>
+                <h1 class="notice-card__title" id="maintenance-title">
+                    <span class="notice-card__title-line">We are currently</span>
+                    <span class="notice-card__title-line">carrying out maintenance</span>
+                    <span class="notice-card__title-line">to bring you a</span>
+                    <span class="notice-card__title-accent">Grade-A digital experience.</span>
+                </h1>
+
+                <div class="notice-card__rule"></div>
+
+                <div class="info-grid">
+                    <article class="info-tile info-tile--wide">
+                        <p class="info-tile__label">Address</p>
+                        <p class="info-tile__text">
+                            11, Otunba Yomi Oshikoya Drive, Abule Bus-stop, Off Mobolaji Bank Anthony Way, Ikeja, Lagos
+                        </p>
+                    </article>
+
+                    <article class="info-tile">
+                        <p class="info-tile__label">Email</p>
+                        <a class="info-tile__link" href="mailto:info@thesquareoffices.com">info@thesquareoffices.com</a>
+                    </article>
+
+                    <article class="info-tile">
+                        <p class="info-tile__label">Phone</p>
+                        <a class="info-tile__link" href="tel:09169219591">09169219591</a>
+                    </article>
+                </div>
+            </section>
+
+            <footer class="carousel-meta">
+                <div class="carousel-meta__copy">
+                    <p class="carousel-meta__label">Workspace views on rotation</p>
+                    <p class="carousel-meta__caption" data-slide-label aria-live="polite"></p>
+                </div>
+                <div class="carousel-meta__dots" data-dots aria-label="Background image selector"></div>
+            </footer>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
